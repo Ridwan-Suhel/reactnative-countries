@@ -5,8 +5,8 @@ import Countries from "./components/Countries";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Visiting Countries.</Text>
       <Countries></Countries>
+      <Text>Visiting Countries.</Text>
       <StatusBar style="auto" />
     </View>
   );
